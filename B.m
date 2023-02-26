@@ -3,7 +3,6 @@ function [M] = B(param,t)
 T1=param.T1;
 TR=param.TR;
 T2=param.T2;
-T1=param.T2;
 M0=[0;0;1];
 
 E1=exp(-t/T1);
